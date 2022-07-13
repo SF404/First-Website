@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    background-color: #f3f7f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+#login_window {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+    margin-top: 5%;
+    width: 400px;
+    height: fit-content;
+    /* border: 2px solid green; */
+    box-shadow:  1px 1px 25px rgba(0, 0, 0, 0.247), 0 0 0 transparent;
+
+    background-color: white;
+}
+
+#login_details form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_details {
+    margin: 5px;
+    height: 42px;
+    padding: 4px;
+    font-size: large;
+    background-color: #e8f0fd;
+    border: 2px solid ;
+    outline: none;
+    border: none;
+    box-shadow: inset 0 1px 4px rgb(0 0 0 / 10%), 0 0 0 transparent;
+}
+
+.submit {
+    float: right;
+    padding: 10px;
+    margin: 10px 5px;
+    height: 42px;
+    background-color: #1ca94b;
+    outline: none;
+    border: none;
+    color: white;
+    /* font-weight: bold; */
+    font-size: large;
+    width: 45%;
+}
+.submit:hover{
+    background-color: #098b35;
+}
+
+#email{
+    background-image: url(images/username.png);
+    background-position: 5px 2px; 
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    
+
+}
+#password{
+    background-image: url(images/password.png);
+    background-repeat: no-repeat;
+    background-position: 5px 2px; 
+    padding-left: 50px;
+}
+ .additional_links{
+    text-align: center;
+    text-decoration: none;
+    /* font-size: large; */
+    font-size: small;
+    margin-top: 10px;
+    color: blue;
+    
+}
+.additional_links:hover{
+    text-decoration: underline;
+}
+.details_hover:focus{
+    /* border-bottom: 2px solid green; */
+    /* box-shadow: inset 0 1px 4px rgb(0 0 0 / 10%), 0 0 0 transparent; */
+
+    box-shadow: inset 2px 0px 0px rgb(16, 163, 36), 0 0 0 transparent;
+
+}
+footer p{
+    text-align: center;
+    font-size: small;
+    position: relative;
+    bottom: -10px;
+}
+header h1{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.name_layout{
+    display: flex;
+    }
+.name_layout input{
+    width: 40%;
+    background-image: none;
+}

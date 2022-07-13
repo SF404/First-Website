@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+.blog_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 23px; */
+    /* box-shadow: 0 0 4px; */
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.blog_top_image{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right,red, orange,  yellow, green, blue,rgb(0, 183, 255), violet);
+    background-image: url(images/blog_top_image.jpg);
+    opacity: 85%;
+    /* backdrop-filter: blur(8px); */
+    background-size: cover;
+    margin: 23px 0;
+    display: flex;
+    justify-content: center;
+}
+.blog_top_image h1{
+    /* text-align: center; */
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 12px black;
+    z-index: 1;
+    font-size: 35px;
+    
+}
+.blog_tile{
+    display: flex;
+    flex-direction: center;
+    width: 100%;
+    margin: auto ;
+    height: 150px;
+    margin-top: 23px;
+    /* border: 2px solid green; */
+    background-color: white;
+    box-shadow: 0 0 4px;
+    border-radius: 8px;
+}
+.blog_tile:hover{
+    transition-duration: 0.2s;
+    box-shadow: 0 0 12px;
+
+}
+.title{
+    /* border: 2px solid orange; */
+    width: 75%;
+    padding: 23px;
+    text-shadow: 0 0 1px black;
+
+}
+.blog_image{
+    /* border: 2px solid violet; */
+    width: 25%;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.507), rgba(255, 255, 0, 0.671));
+    
+}
+
+/* subdcribe to blog  */
+.subscribe_to_our_daily_blog{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.xyz{
+    height: 50px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 6px black;
+    font-size: large;
+
+}
+.xyz:hover{
+    box-shadow: 0 0 8px black;
+
+}
+.subscribe_button{
+    background-color: rgb(252, 44, 44);
+    width: 150px;
+    border-radius: 0 4px 4px 0;
+    font-weight: bold;
+    color: white;
+    
+}
+.subscribe_button:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+#email{
+    width: 350px;
+    border-radius: 4px 0 0 4px;
+    padding-left: 15px;
+}
+
+
